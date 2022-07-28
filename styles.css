@@ -24,7 +24,12 @@ body {
     color: #1F3F49;
 }
 
-a.logout {
+.right-links {
+    display: flex;
+    gap: 30px;
+}
+
+a.logout,a.contact {
     text-decoration: none;
     font-size: 20px;
     font-family: "Noto Sans",sans-serif;
@@ -55,4 +60,21 @@ a.dashboard,a.home,a.results {
 
 i{
     filter: invert(100%);
+}
+
+.footer {
+    display: flex;
+    background-color: #163e66;
+    padding: 10px;
+    color: aliceblue;
+    justify-content: center;
+    font-family: "Roboto Slab",serif;
+    font-size: 12px;
+}
+
+a.logo-attribute {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Roboto Slab",serif;
+    font-style: italic;
 }
