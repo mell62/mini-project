@@ -51,7 +51,7 @@ img.logo {
     flex-direction: column;
 }
 
-a.dashboard,a.home,a.results {
+a.dashboard,a.home,a.results,a.test {
     text-decoration: none;
     color: white;
     font-family: "Saira",sans-serif;
