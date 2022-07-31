@@ -186,17 +186,17 @@ h1 {
 
   .footer {
     display: flex;
-    background-color: #163e66;
+    background-color: #f1dfd3;
     padding: 10px;
-    color: aliceblue;
     justify-content: center;
     font-family: "Roboto Slab",serif;
     font-size: 12px;
+    color: #b88d62;
 }
 
 a.logo-attribute {
   text-decoration: none;
-  color: aliceblue;
+  color: #b88d62;
   font-family: "Roboto Slab",serif;
   font-style: italic;
 }
