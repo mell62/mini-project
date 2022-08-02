@@ -56,7 +56,7 @@ a.logout,a.home,a.dashboard {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-    background-image: url(../images/contact.jpg);
+  background-image: url(../images/contact.jpg);
 }
 
 .hero-text {
@@ -64,8 +64,8 @@ a.logout,a.home,a.dashboard {
     justify-content: center;
     font-family: "Convergence",sans-serif;
     font-size: 60px;
-    padding-top: 90px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 70px;
 }
 
 .contact {
