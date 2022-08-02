@@ -1,0 +1,206 @@
+body {
+    margin: 0px;
+    background-color: #DADADA;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #F1F1F1;
+    padding: 15px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-text-and-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-text {
+    font-family: "Noto Sans",sans-serif;
+    font-size: 20px;
+    color: #1F3F49;
+}
+
+a.header-text {
+    text-decoration: none;
+}
+
+.right-links {
+    display: flex;
+    gap: 30px;
+}
+
+a.logout,a.contact {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Noto Sans",sans-serif;
+    color: #1F3F49;
+}
+
+img.logo {
+    width: 40px;
+    height: auto;
+}
+
+.sidebar {
+    background-color: #23282D;
+    width: 200px;
+    padding: 10px 18px;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+a.dashboard,a.home,a.results,a.test {
+    text-decoration: none;
+    color: white;
+    font-family: "Saira",sans-serif;
+    padding-left: 10px;
+}
+
+i{
+    filter: invert(100%);
+}
+
+.footer {
+    display: flex;
+    background-color: #163e66;
+    padding: 10px;
+    color: aliceblue;
+    justify-content: center;
+    font-family: "Roboto Slab",serif;
+    font-size: 12px;
+}
+
+a.logo-attribute {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Roboto Slab",serif;
+    font-style: italic;
+}
+
+.body {
+    display: flex;
+}
+
+.hero {
+    display: grid;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-template-rows: 130px 80px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-areas: 
+    "hero-heading . ."
+    "jobs-uploaded number-of-applicants profile";
+    column-gap: 200px;
+    background-color: #F1F1F1;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 40px;
+}
+
+h1.hero-heading {
+    margin: 0px;
+    grid-area: hero-heading;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+div.jobs-uploaded {
+    grid-area: jobs-uploaded;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+div.jobs-button,div.applicants-button,div.profile-button {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+div.applicants-button {
+    gap: 20px;
+}
+
+div.profile-button {
+    gap: 25px;
+}
+
+div.number-of-applicants {
+    grid-area: number-of-applicants;
+}
+
+div.profile {
+    grid-area: profile;
+}
+
+div.button-text {
+    font-family: "Rubik",sans-serif;
+    font-size: 20px;
+}
+
+img.jobs-uploaded,img.number-of-applicants,img.profile {
+    height: 50px;
+    width: auto;
+  }
+
+  .bn3637 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    backface-visibility: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 3rem;
+  }
+  
+  .bn37 {
+    border-color: transparent;
+    background-color: #7b81ec;
+    color: white;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  }
+    
+  .bn37:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  }
+
+
+  .bn38 {
+    border-color: transparent;
+    background-color: #e4bc4e;
+    color: white;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  }
+    
+  .bn38:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  }  
+  
+  .bn39 {
+    border-color: transparent;
+    background-color: #8ce0f1;
+    color: white;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  }
+    
+  .bn39:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  }
+
+  
